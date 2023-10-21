@@ -1,0 +1,1 @@
+document.write('<span class=\'accept\'><a href=\'javascript:void(0);\' onclick=\'ansbest(12045842,this)\'>采纳</a></span>');document.write('<span class="asked"><a href="javascript:void(0);">回复</a></span>')document.write('<span class="asked"><a href="javascript:void(0);">回复</a></span>');document.write('<span class="qulogin"><a href="javascript:void(0);">回复</a></span>');

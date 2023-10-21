@@ -1,0 +1,56 @@
+.dyn{width:40px;height:260px;position:fixed;background:url(images/zixun.jpg) no-repeat;display:block; bottom:60px;left:50%; margin-top:-118px; margin-left:-562px;_position:absolute;
+    _bottom:30px;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0))); }
+
+.bottom_tip{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background: #4a4a4a;
+    height: 54px;
+    z-index: 999;
+}
+.btip_con{
+    width: 999px;
+    margin: 0 auto;
+    height: 54px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 54px;
+    text-align: center;
+    font-family: "microsoft yahei";
+}
+.btip_con span,.btip_con a{ font-family:"microsoft Yahei","Arial Narrow";}
+.btip_con a.want_an{ color: #FFF;}
+.btip2{
+    height:81px; background: #cf000d;}
+.btip_con a.want_an{ color: #FFF;}
+.btip2 .btip_con a.want_an{ color:#cf000d; background: #FFF; margin-left: 36px;}
+.btip2 .btip_con{ line-height: 81px;}
+
+
+.want_an{
+    display: inline-block;
+    background: #ff5a5f;
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    border-radius: 4px;
+    line-height: 40px;
+    text-align: center;
+}
+.want_an:hover{
+    color: inherit;
+}
+.footerLaws {
+    width: 100%;
+    background: #f7f7f7;
+    font-family: "Microsoft Yahei";
+    padding-bottom: 34px;
+}
+.go_top{
+    position: absolute;
+    right: 0;
+    bottom:6px;
+}
+.btip2 .go_top{ bottom: 19px;}

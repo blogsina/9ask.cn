@@ -1,0 +1,105 @@
+.leftImg_bottom_new{
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	display:none;
+}
+.foot_bottom_new{
+	height: 120px;
+	position: fixed;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+	background: url("http://www.9ask.cn/statics/9ask2017/s7/images/footBg.png") repeat-x;
+	left: -123%;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+	z-index: 9999;
+	line-height: 120px;
+}
+.foot_bottom_new.left_bottom_new{
+	left: 0;
+}
+.footClose_bottom_new{
+	width:7%;
+	display: block;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	margin-top: 40px;
+	float: left;
+}
+.footClose_bottom_new img{
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 40%;
+}
+.wImg_bottom_new{
+	width: 1200px;
+	height:120px;
+	position: relative;
+	margin: 0 auto;
+}
+.anniu_bottom_new{
+	width: 27%;
+	height: 80px;
+	line-height: 80px;
+	margin-top: 40px;
+	float: left;
+	text-align: center;
+}
+.anniu_bottom_new img{
+	width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 8%;
+}
+.footL_bottom_new{
+	float: left;
+	width: 66%;
+	line-height: 120px;
+}
+.footL_bottom_new .person{
+	width: 11.5%;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left:0px;
+	left: 0px;
+}
+.footL_bottom_new .person_hide{
+	position: fixed;
+	bottom: 0px;
+	width: 94px !important;
+	height: 120px  !important;
+	z-index: 999999;
+	left: 58px;
+	margin-left: 0px;
+	display: inline-block;
+	animation: sc 1000s;
+	-o-animation: sc 1000s;
+	-ms-animation: sc 1s;
+	-webkit-animation: sc 1s;
+}
+@keyframes sc {
+	from{
+		left: 37.41%;
+	}
+	to{
+		left: 58px;
+	}
+
+}
+.footL_bottom_new img{
+	width: 83.5%;
+	margin-left: 4%;
+	display: inline-block;
+	vertical-align: bottom;
+}
+@media screen and (max-width:1200px){
+   .wImg_bottom_new{
+	   width: 98%;
+   }
+}

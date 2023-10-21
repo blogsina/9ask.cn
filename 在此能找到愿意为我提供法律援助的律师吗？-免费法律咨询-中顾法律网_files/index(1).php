@@ -1,0 +1,1 @@
+document.write('尊敬的律师请先登录后解答该咨询：');document.write('<a href="javascript:void(0);" class="qulogin">登录</a> | <a href="http://www.9ask.cn/registers.html" rel="nofollow">注册</a>');
